@@ -8,6 +8,7 @@ var cors = require('cors')
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+/*  APP Routes */
 var portfolioRouter = require('./routes/portfolio');
 var walletRouter = require('./routes/wallet');
 
@@ -30,11 +31,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-// write some code here to bootstrap your wallet with 100,000
 
 
 
-// MAP ROUTES  
+
+// MAP ROUTES
 app.use('/api/v1/portfolio', portfolioRouter);
 
 app.use('/api/v1/wallet', walletRouter);
