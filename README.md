@@ -31,9 +31,8 @@
                    and save to a Sqlite database.
 
 
-    Trade-Client - ReactJS client that handles front end UI,
-                   and acts as a client to handle user requests
-                   to look up stocks, and purchase stocks.
+    Trade-Client - Html, ReactJS, Javascript client
+                   to handle User Interface, and API requests.
 
 
     Repo         - Server  at  project04-server                   
